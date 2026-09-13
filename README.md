@@ -2,7 +2,7 @@
 
 <img src="assets/vidfetch-logo.svg" alt="VidFetch logo" width="520" />
 
-# VidFetch
+# 
 
 **A simple, open-source Windows desktop downloader powered by yt-dlp and FFmpeg.**
 
