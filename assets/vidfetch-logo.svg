@@ -1,0 +1,36 @@
+<svg width="1600" height="500" viewBox="0 0 1600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="iconGrad" x1="82" y1="36" x2="450" y2="385" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.52" stop-color="#1579FF"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="swooshGrad" x1="93" y1="124" x2="391" y2="252" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1E1B8F"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="wordGrad" x1="805" y1="140" x2="1430" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1D9BFF"/>
+      <stop offset="0.55" stop-color="#2457FF"/>
+      <stop offset="1" stop-color="#8B2BFF"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="248" y1="108" x2="248" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#D9E8FF"/>
+    </linearGradient>
+    <filter id="softShadow" x="50" y="18" width="400" height="404" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#09142D" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <g filter="url(#softShadow)">
+    <path d="M90 157C90 65.4 189.2 8.37 268.2 54.34L388.9 124.57C462.4 167.35 462.8 273.53 389.64 316.84L268.94 388.28C190.08 434.95 90 378.09 90 286.46V157Z" fill="url(#iconGrad)"/>
+    <path d="M92 164.07C92 120.63 139.69 93.83 177.03 120.04L369.68 255.34C400.87 277.24 385.37 326.35 347.26 326.35H128.95C108.58 326.35 92 309.77 92 289.4V164.07Z" fill="url(#swooshGrad)" opacity="0.96"/>
+    <rect x="211" y="93" width="74" height="140" rx="37" fill="url(#arrowGrad)"/>
+    <path d="M248 312.58L155.68 220.26C149.71 214.29 153.94 204.08 162.38 204.08H333.62C342.06 204.08 346.29 214.29 340.32 220.26L248 312.58Z" fill="url(#arrowGrad)"/>
+    <rect x="143" y="309" width="210" height="58" rx="29" fill="url(#arrowGrad)"/>
+  </g>
+  <g>
+    <text x="470" y="302" fill="#061534" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="228" font-weight="800" letter-spacing="-8">Vid</text>
+    <text x="803" y="302" fill="url(#wordGrad)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="228" font-weight="800" letter-spacing="-8">Fetch</text>
+  </g>
+</svg>
